@@ -113,6 +113,10 @@ class ULListStr {
    */
   void clear();
 
+  //Used for testing 
+  void print() const;
+
+
  private:
   /** 
    * Returns a pointer to the item at index, loc,
@@ -120,7 +124,6 @@ class ULListStr {
    *   - MUST RUN in O(n) 
    */
   std::string* getValAtLoc(size_t loc) const;
-
 
   /**
    * Data members
